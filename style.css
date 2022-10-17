@@ -1,0 +1,56 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(68, 129, 121);
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #fbfffe;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #def5eb;
+  }
+  
+
+tr th {
+    background-color: rgb(212, 236, 228);
+    color: rgb(27, 25, 27);
+    text-align: left;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 30px;
+
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.edit-window {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+
+}
+
+.edit-window .edit-content {
+    width: max-content;
+    margin: 50px auto 0;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+
+
+
